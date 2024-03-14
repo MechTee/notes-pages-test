@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build -- --base /dop-java/
+        run: npm run build -- --base /notes-pages-test/
 
       - uses: actions/configure-pages@v4
 
